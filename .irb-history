@@ -1,0 +1,50 @@
+reinstall_apps
+start_test_server_in_background
+query("*")
+query("* id:'cep'")
+query("android.widget.EditText")
+element_exists "* id:'input_cep'"
+element_exists "* id:'cep'"
+query("*")
+query("* id:'"statusBarBackground'")
+query("*")
+exit
+exit
+end
+eixt
+exit
+exit
+query("*")
+query ("* android.widget.EditText")
+query ("* class:'android.widget.EditText'")
+query "android.widget.EditText"
+query asdf
+query("* id:'cep'")
+query("* text:'Consulte Cep'")
+query("* text:'Informe o Cep'")
+query("* text:'Consultar'")
+exit
+query("*")
+exit
+query("*")
+start_test_server_in_background
+start_test_server_in_background
+reinstall_apps
+reinstall_apps
+start_test_server_in_background
+query("*")
+query("android.view.View")
+touch("* text:'CONSULTAR'")
+touch("* text:'CONSULTAR'")
+tap("* text:'CONSULTAR'")
+tap("* text:'CONSULTAR'")
+touch("* text:'CONSULTAR'")
+query("* text:'CONSULTAR'")
+touch("* text:'Consulte CEP'")
+query("* text:'Consulte CEP'")
+query("*")
+exit
+element_exists "* id='input_cep'"
+query("*")
+calabash-android
+exit
